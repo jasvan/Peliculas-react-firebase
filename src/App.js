@@ -3,17 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      
-      <div id="preloader">
-        <img className="logo" src="images/logo1.png" alt="" width="119" height="58" />
-        <div id="status">
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-      //end of preloading
-      //login form popup
+    <div>
+
       <div className="login-wrapper" id="login-content">
         <div className="login-content">
           <a href="#" className="close">x</a>
@@ -56,8 +47,7 @@ function App() {
           </div>
         </div>
       </div>
-      //end of login form popup
-      //signup form popup
+
       <div className="login-wrapper" id="signup-content">
         <div className="login-content">
           <a href="#" className="close">x</a>
@@ -101,13 +91,11 @@ function App() {
           </form>
         </div>
       </div>
-      //end of signup form popup
 
-      // BEGIN | Header 
       <header className="ht-header">
         <div className="container">
           <nav className="navbar navbar-default navbar-custom">
-            // Brand and toggle get grouped for better mobile display 
+
             <div className="navbar-header logo">
               <div className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span className="sr-only">Toggle navigation</span>
@@ -120,7 +108,7 @@ function App() {
               <a href="index-2.html"><img className="logo" src="images/logo1.png" alt="" width="119"
                 height="58" /></a>
             </div>
-            // Collect the nav links, forms, and other content for toggling 
+
             <div className="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
               <ul className="nav navbar-nav flex-child-menu menu-left">
                 <li className="hidden">
@@ -218,10 +206,10 @@ function App() {
                 <li className="btn signupLink"><a href="#">sign up</a></li>
               </ul>
             </div>
-            ///.navbar-collapse 
+
           </nav>
 
-          // top search form 
+
           <div className="top-search">
             <select>
               <option value="united">TV show</option>
@@ -231,7 +219,7 @@ function App() {
           </div>
         </div>
       </header>
-      // END | Header 
+
 
       <div className="hero common-hero">
         <div className="container">
@@ -248,6 +236,7 @@ function App() {
           </div>
         </div>
       </div>
+
       <div className="page-single movie_list">
         <div className="container">
           <div className="row ipad-width2">
@@ -266,6 +255,10 @@ function App() {
                 <a href="movielist.html" className="list"><i className="ion-ios-list-outline active"></i></a>
                 <a href="moviegrid.html" className="grid"><i className="ion-grid"></i></a>
               </div>
+
+
+
+
               <div className="movie-item-style-2">
                 <img src="images/uploads/mv1.jpg" alt="" />
                 <div className="mv-item-infor">
@@ -291,6 +284,8 @@ function App() {
                   </p>
                 </div>
               </div>
+
+              
               <div className="movie-item-style-2">
                 <img src="images/uploads/mv2.jpg" alt="" />
                 <div className="mv-item-infor">
@@ -408,8 +403,11 @@ function App() {
                 </div>
               </div>
             </div>
+
             <div className="col-md-4 col-sm-12 col-xs-12">
+
               <div className="sidebar">
+
                 <div className="searh-form">
                   <h4 className="sb-title">Search for movie</h4>
                   <form className="form-style-1" action="#">
@@ -476,23 +474,26 @@ function App() {
                     </div>
                   </form>
                 </div>
+
                 <div className="ads">
                   <img src="images/uploads/ads1.png" alt="" />
                 </div>
+                -------------parte afectada---
                 <div className="sb-facebook sb-it">
                   <h4 className="sb-title">Find us on Facebook</h4>
-                  <iframe src="#"
+               <iframe src="#"
                     data-src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftemplatespoint.net%2F%3Ffref%3Dts&tabs=timeline&width=340&height=315px&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=true&appId"
-                    height="315" style="width: 100%; border: none; overflow: hidden"></iframe>
+                    height="315" ></iframe> 
                 </div>
+                -------------//parte afectada---
                 <div className="sb-twitter sb-it">
                   <h4 className="sb-title">Tweet to us</h4>
                   <div className="slick-tw">
                     <div className="tweet item" id="">
-                      // Put your twiter id here 
+
                     </div>
                     <div className="tweet item" id="">
-                      // Put your 2nd twiter account id here 
+
                     </div>
                   </div>
                 </div>
@@ -501,7 +502,7 @@ function App() {
           </div>
         </div>
       </div>
-      // footer section
+
       <footer className="ht-footer">
         <div className="container">
           <div className="flex-parent-ft">
@@ -567,8 +568,8 @@ function App() {
           </div>
         </div>
       </footer>
+
     </div>
   );
 }
-
 export default App;
