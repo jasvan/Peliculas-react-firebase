@@ -1,2 +1,9 @@
 {
+    "editor.fontWeight": "1",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 20,
+    "screencastMode.onlyKeyboardShortcuts": true,
+    "editor.fontFamily": "'Fira Code Retina'",
+    "workbench.preferredLightColorTheme": "Monokai",
+    "workbench.preferredDarkColorTheme": "Monokai"
 }
